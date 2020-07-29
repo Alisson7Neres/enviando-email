@@ -23,7 +23,7 @@ public class AppTest {
 
 		ObjetoEnviaEmail enviaEmail =
 				new ObjetoEnviaEmail
-				("alisson.ribeiro.rock@gmail.com", "mr.robot@hotmail.com", 
+				("DESTINO", "REMETENTE", 
 						"Email com eclipse", stringBuilderTextoEmail.toString());
 		enviaEmail.enviarEmail(true);
 		enviaEmail.enviarEmailAnexo(true);
